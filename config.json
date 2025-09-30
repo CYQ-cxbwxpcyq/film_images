@@ -1,0 +1,5 @@
+{
+  "gallery_name": "My Film Image Gallery",
+  "theme": "light",  // 或 "dark"
+  "albums": []  // 空数组，让它自动扫描根目录文件夹
+}
