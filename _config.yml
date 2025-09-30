@@ -1,0 +1,18 @@
+title: "我的在线相册"
+description: "基于 jekyll-photo-gallery 的 GitHub Pages 相册"
+theme: minima
+
+plugins:
+  - jekyll-photo-gallery
+
+# 相册设置
+photo_gallery:
+  source: .       # 存放图片的目录（相对路径）
+  output: gallery      # 输出的 HTML 页面目录
+  thumbnail_size: 300  # 缩略图大小（像素）
+
+# 避免把 Jekyll 配置文件当作图片
+exclude:
+  - _config.yml
+  - index.md
+  - README.md
